@@ -1,0 +1,9 @@
+option java_package = "Serialization_ProtoBuf.ProtoBuf"; 
+option java_outer_classname = "WSMessageProtoBuf"; 
+
+message WSMessage {  
+    	required string id = 1;
+	required string content = 2;
+	required string sender = 3;
+	required string time = 4;
+}
